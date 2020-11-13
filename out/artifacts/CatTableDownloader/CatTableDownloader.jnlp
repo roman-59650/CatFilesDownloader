@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CatTableDownloader.jnlp">
+  <information>
+    <title>CatTableDownloader</title>
+    <vendor>Unknown</vendor>
+    <description>CatTableDownloader</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CatTableDownloader.jar" size="11508" download="eager" />
+    <jar href="controlsfx-8.40.15.jar" size="1402490" download="eager" />
+    <jar href="jsoup-1.13.1.jar" size="393867" download="eager" />
+    <jar href="lib/controlsfx-8.40.15.jar" size="1402490" download="eager" />
+    <jar href="lib/jsoup-1.13.1.jar" size="393867" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="CatTableDownloader" />
+  <update check="background"/>
+</jnlp>
